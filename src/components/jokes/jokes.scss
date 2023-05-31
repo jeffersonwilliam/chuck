@@ -1,0 +1,16 @@
+.jokes-container {
+  width: 100%;
+  padding: 30px;
+}
+
+#jokes-title {
+  display: flex;
+  width: 200px;
+}
+
+#jokes-holder {
+  display: flex;
+  width: fit-content;
+  height: 50px;
+  align-items: center;
+}
