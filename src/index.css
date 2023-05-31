@@ -8,4 +8,5 @@ html,
   border: 0px;
   background-color: #fff5d7;
   font-family: 'Space Grotesk', sans-serif;
+  overflow-x: hidden;
 }

@@ -18,7 +18,11 @@ const Jokes = () => {
   return (
     <div className='jokes-container'>
       <h2 id='jokes-title'>Jokes</h2>
-      <div id='jokes-holder'>{jokeStore.value}</div>
+      {jokeStore.value === undefined ? (
+        <div id='jokes-holder'>Click on a category above to see joke here</div>
+      ) : (
+        <div id='jokes-holder'>{jokeStore.value}</div>
+      )}
     </div>
   );
 };

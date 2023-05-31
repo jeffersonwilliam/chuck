@@ -1,6 +1,7 @@
 .jokes-container {
-  width: 100%;
   padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #jokes-title {
@@ -11,6 +12,6 @@
 #jokes-holder {
   display: flex;
   width: fit-content;
-  height: 50px;
+  height: fit-content;
   align-items: center;
 }
